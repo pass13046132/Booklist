@@ -1,0 +1,75 @@
+<div ng-class="['banner', 'recruit-banner']">
+    <div class='content'>
+        <div class='title'></div>
+    </div>
+</div>
+<div class='recruit'>
+    <div class='one'>
+        <div class='text'>
+            <h2>和这样的我们在一起</h2>
+            <p>我们组织扁平 尊重个性张扬<br>我们文化开放 鼓励创新创意<br>我们团队卓越 强调压力共担</p>
+        </div>
+        <div class='text'>
+            <h2>有这样的关爱给你</h2>
+            <p>五险一金<br>员工期权<br>季度奖金<br>下午茶<br>生日趴</p>
+        </div>
+    </div>
+    <div class='two'>
+        <div class="content">
+            <h2>近一个月有<span ng-bind="recruit.jobsSum"></span>个职位正在招聘</h2>
+            <ul class="tab-nav">
+                <li ng-class="{active:recruit.showTabNumber === 0}" ng-click="recruit.showTab(0)">全部</li>
+                <li ng-class="{active:recruit.showTabNumber === 1}" ng-click="recruit.showTab(1)">技术</li>
+                <li ng-class="{active:recruit.showTabNumber === 2}" ng-click="recruit.showTab(2)">运营</li>
+            </ul>
+            <div class="tab-main">
+                <div class="tab-list" ng-if="recruit.showTabNumber === 0">
+                    <ul>
+                        <li ng-repeat="job in recruit.jobs">
+                            <h3><a ng-href="{{job.url}}" target="_blank"><b ng-bind="job.position"></b><span>(HOT)</span></a></h3>
+                            <p>月薪:<span ng-bind="job.salary"></span><br><span ng-bind="job.ps"></span></p>
+                            <div class="date" ng-bind="job.date">2016-05-26</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-list" ng-if="recruit.showTabNumber === 1">
+                    <ul>
+                        <li ng-repeat="job in recruit.jobsIt">
+                            <h3><a ng-href="{{job.url}}" target="_blank"><b ng-bind="job.position"></b><span>(HOT)</span></a></h3>
+                            <p>月薪:<span ng-bind="job.salary"></span><br><span ng-bind="job.ps"></span></p>
+                            <div class="date" ng-bind="job.date">2016-05-26</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-list" ng-if="recruit.showTabNumber === 2">
+                    <ul>
+                        <li ng-repeat="job in recruit.jobsOperator">
+                            <h3><a ng-href="{{job.url}}" target="_blank"><b ng-bind="job.position"></b><span>(HOT)</span></a></h3>
+                            <p>月薪:<span ng-bind="job.salary"></span><br><span ng-bind="job.ps"></span></p>
+                            <div class="date" ng-bind="job.date">2016-05-26</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='three'>
+        <h2>联系我们<br><span>CONTACT&nbsp;US</span></h2>
+        <ul class="img">
+            <li><img src="../../../../img/yxjl.png" alt="搜股科技"></li>
+            <li><img src="../../../../img/lxr.png" alt="搜股科技"></li>
+            <li><img src="../../../../img/sj.png" alt="搜股科技"></li>
+        </ul>
+        <ul class="text">
+            <li>
+                <p>简历发送至邮箱<br>hr@sogukj.com</p>
+            </li>
+            <li>
+                <p>联系人<br>王先生</p>
+            </li>
+            <li>
+                <p>电话<br>021--63520866</p>
+            </li>
+        </ul>
+    </div>
+</div>
