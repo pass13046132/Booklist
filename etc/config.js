@@ -7,4 +7,4 @@
  *
  **/
 
-export default {appname: 'sogukj', version: '1.0.0'};
+export default {appname: '快涨：为您的股票投资保驾护航', version: '1.0.0'};

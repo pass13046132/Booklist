@@ -137,12 +137,23 @@
 }
 .home-banner2 {
   background-image: url('../img/banner3.jpg');
-  .title {
+  /*.title {
     width: 7.84rem;
     height: 1.78rem;
     background: url('../img/huiyuan.png') center center / 7.84rem 1.78rem no-repeat;
     position: relative;
     margin: 1.62rem auto 1.45rem auto;
+    animation-name:step3;
+    -webkit-animation:step3 0.4s linear 0s normal none;
+    -moz-animation:step3 0.4s linear 0s normal none;
+    animation:step3 0.4s linear 0s normal none;
+  }*/
+  .title {
+    width: 3.72rem;
+    height: 1.38rem;
+    background: url('../img/biaoti1.png') center center / 3.72rem 1.38rem no-repeat;
+    position: relative;
+    margin: 2.02rem auto 1.45rem auto;
     animation-name:step3;
     -webkit-animation:step3 0.4s linear 0s normal none;
     -moz-animation:step3 0.4s linear 0s normal none;
