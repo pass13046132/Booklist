@@ -1,0 +1,22 @@
+<div class="nav" ng-controller="HeaderController">
+    <div class="content">
+        <div class='logo'></div>
+        <ul>
+            <li ng-click="activeRoute('home')">
+                <a href="#/home" ng-class="{active: route === 'home'}">首页</a>
+            </li>
+            <li ng-click="activeRoute('app')">
+                <a href="#/app" ng-class="{active: route === 'app'}">快涨</a>
+            </li>
+            <li ng-click="activeRoute('cheats')">
+                <a href="#/cheats" ng-class="{active: route === 'cheats'}">股票秘籍</a>
+            </li>
+            <li ng-click="activeRoute('recruit')">
+                <a href="#/recruit" ng-class="{active: route === 'recruit'}">人才招聘</a>
+            </li>
+            <li ng-click="activeRoute('about')">
+                <a href="#/about" ng-class="{active: route === 'about'}">关于搜股</a>
+            </li>
+        </ul>
+    </div>
+</div>

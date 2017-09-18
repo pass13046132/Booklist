@@ -1,0 +1,65 @@
+@-webkit-keyframes step1
+{
+  from{opacity:0;top:-100px;}
+  to{opacity:1;top:0;}
+}
+@-moz-keyframes step1
+{
+  from{opacity:0;top:-150px;}
+  to{opacity:1;top:0;}
+}
+@keyframes step1
+{
+  from{opacity:0;top:-150px;}
+  to{opacity:1;top:0;}
+}
+
+@-webkit-keyframes step2
+{
+  from{opacity:0;bottom:-100px;}
+  to{opacity:1;bottom:0;}
+}
+@-moz-keyframes step2
+{
+  from{opacity:0;bottom:-100px;}
+  to{opacity:1;bottom:0;}
+}
+@keyframes step2
+{
+  from{opacity:0;bottom:-100px;}
+  to{opacity:1;bottom:0;}
+}
+
+
+@-webkit-keyframes step3
+{
+  from{opacity:0;left:-100px;}
+  to{opacity:1;left:0;}
+}
+@-moz-keyframes step3
+{
+  from{opacity:0;left:-100px;}
+  to{opacity:1;left:0;}
+}
+@keyframes step3
+{
+  from{opacity:0;left:-100px;}
+  to{opacity:1;left:0;}
+}
+
+
+@-webkit-keyframes step4
+{
+  from{opacity:0;right:-100px;}
+  to{opacity:1;right:0;}
+}
+@-moz-keyframes step4
+{
+  from{opacity:0;right:-100px;}
+  to{opacity:1;right:0;}
+}
+@keyframes step4
+{
+  from{opacity:0;right:-100px;}
+  to{opacity:1;right:0;}
+}
