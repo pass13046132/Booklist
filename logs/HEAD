@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 5edd9b4f886c925e911434036bd6a0242e7b2914 chengxl <chengxl@doudouxing.com> 1472206690 +0800	commit (initial): Restructure sogu web in angular.js
+5edd9b4f886c925e911434036bd6a0242e7b2914 806be9bfc53b51151e7dbb619bee0bd9436fc7c4 chengxl <chengxl@doudouxing.com> 1488510683 +0800	commit: base framework
+806be9bfc53b51151e7dbb619bee0bd9436fc7c4 806be9bfc53b51151e7dbb619bee0bd9436fc7c4 chengxl <chengxl@doudouxing.com> 1488510809 +0800	checkout: moving from master to develop
+806be9bfc53b51151e7dbb619bee0bd9436fc7c4 806be9bfc53b51151e7dbb619bee0bd9436fc7c4 chengxl <chengxl@doudouxing.com> 1488510864 +0800	checkout: moving from develop to feature/change-style-bs
+806be9bfc53b51151e7dbb619bee0bd9436fc7c4 2fa44c2332f62affc6f3ce8899731f90e59ed331 chengxl <chengxl@doudouxing.com> 1488536187 +0800	commit: finished sogu web adaptation mobile
+2fa44c2332f62affc6f3ce8899731f90e59ed331 806be9bfc53b51151e7dbb619bee0bd9436fc7c4 chengxl <chengxl@doudouxing.com> 1488536197 +0800	checkout: moving from feature/change-style-bs to develop
+806be9bfc53b51151e7dbb619bee0bd9436fc7c4 2fa44c2332f62affc6f3ce8899731f90e59ed331 chengxl <chengxl@doudouxing.com> 1488536197 +0800	merge feature/change-style-bs: Fast-forward
+2fa44c2332f62affc6f3ce8899731f90e59ed331 df2279580a247b435cefc7dca2a4304be76817db chengxl <chengxl@doudouxing.com> 1498120892 +0800	commit: finish
+df2279580a247b435cefc7dca2a4304be76817db 806be9bfc53b51151e7dbb619bee0bd9436fc7c4 chengxl <chengxl@doudouxing.com> 1502952467 +0800	checkout: moving from develop to master
