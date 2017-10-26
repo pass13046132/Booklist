@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #fff;
+    position: relative;
+}
+@media screen and (max-width: 1920px){
+    html {
+        font-size: 512px;
+    }
+}
+@media screen and (max-width: 1536px){
+    html {
+        font-size: 409px;
+    }
+}
+@media screen and (max-width: 1440px){
+    html {
+        font-size: 384px;
+    }
+}
+@media screen and (max-width: 1280px){
+    html {
+        font-size: 341px;
+    }
+}
+@media screen and (max-width: 1080px){
+    html {
+        font-size: 288px;
+    }
+}
+@media screen and (max-width: 1024px){
+    html {
+        font-size: 273px;
+    }
+}
+@media screen and (max-width: 966px){
+    html {
+        font-size: 257px;
+    }
+}
+@media screen and (max-width: 960px){
+    html {
+        font-size: 256px;
+    }
+}
+@media screen and (max-width: 854px){
+    html {
+        font-size: 227px;
+    }
+}
+@media screen and (max-width: 800px){
+    html {
+        font-size: 213px;
+    }
+}
+@media screen and (max-width: 768px){
+    html {
+        font-size: 204px;
+    }
+}
+@media screen and (max-width: 720px){
+    html {
+        font-size: 192px;
+    }
+}
+@media screen and (max-width: 640px){
+    html {
+        font-size: 170px;
+    }
+}
+@media screen and (max-width: 600px){
+    html {
+        font-size: 160px;
+    }
+}
+@media screen and (max-width: 540px){
+    html {
+        font-size: 144px;
+    }
+}
+@media screen and (max-width: 480px){
+    html {
+        font-size: 128px;
+    }
+}
+@media screen and (max-width: 424px){
+    html {
+        font-size: 113px;
+    }
+}
+@media screen and (max-width: 414px){
+    html {
+        font-size: 110px;
+    }
+}
+@media screen and (max-width: 400px){
+    html {
+        font-size: 106px;
+    }
+}
+@media screen and (max-width: 384px){
+    html {
+        font-size: 102px;
+    }
+}
+@media screen and (max-width: 375px){
+    html {
+        font-size: 100px;
+    }
+}
+@media screen and (max-width: 360px){
+    html {
+        font-size: 96px;
+    }
+}
+@media screen and (max-width: 320px){
+    html {
+        font-size: 85px;
+    }
+}
+@media screen and (max-width: 213px){
+    html {
+        font-size: 56px;
+    }
+}
+html{
+     background-color: rgb(246,246,246);
+}
+body{
+    margin: 0.20rem;
+}
+ul li{
+    list-style: none;
+}
+/************section1****************/
+.section1{
+    margin-bottom: 0.10rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 1.50rem;
+}
+.swiper-slide{
+    background: url("../images/s1.png")  center center no-repeat;
+}
+
+/************section2****************/
+.section2{
+
+}
+.hot{
+    height: 0.40rem;
+}
+.hot p{
+    color: #000;
+    height: 0.40rem;
+    line-height: 0.40rem;
+    font-size: 0.20rem;
+}
+.booklist{
+    overflow: hidden;
+    font-size: 0.10rem;
+    height: 3.50rem;
+    margin-bottom: 0.20rem;
+    background-color: white;
+    border-radius: 2%;
+}
+.content-head{
+    margin: 0.10rem;
+    height: 1.00rem;
+}
+.xingji{
+    height: 0.20rem;
+    margin-bottom:0.10rem;
+}
+.content-head .xingji p{
+    height: 0.20rem;
+    line-height: 0.20rem;
+    font-weight: 700;
+    font-size: 0.10rem;
+    color: rgb(205,205,205);
+}
+.content-head .xingji p .star{
+    margin-left: 0.20rem;
+    height: 0.20rem;
+    width: 0.60rem;
+    background: url("../images/tag.png") 100% 100% no-repeat;
+}
+.content-head .daoyu{
+    height: 0.20rem;
+    margin-bottom:0.10rem;
+}
+.content-head .daoyu p{
+    height: 0.20rem;
+    font-weight: 700;
+    line-height: 0.20rem;
+    font-size: 0.20rem;
+}
+.content-head .fenlei{
+    height: 0.20rem;
+    line-height: 0.20rem;
+    margin-bottom:0.10rem;
+    color: rgb(205,205,205);
+    border-bottom: 0.01rem solid rgb(205,205,205);
+
+}
+.content-head .fenlei .fenlei-lf{
+    width: 50%;
+    float: left;
+}
+.content-head .fenlei .fenlei-rg{
+    width: 20%;
+    float: right;
+}
+.content-body{
+    width: 100%;
+    height: 1.00rem;
+    margin-bottom: 0.10rem;
+}
+.content-body .list{
+    width: 100%;
+    height: 1.00rem;
+    margin-bottom: 0.10rem;
+}
+.content-body .bookpic{
+    width: 30%;
+    height: 1.00rem;
+    float: left;
+}
+.content-body .bookpic .picture{
+    width: 100%;
+    height: 1.00rem;
+    background: url("../images/book1.png") 100% 100% no-repeat;
+}
+.content-body .bookintro{
+    width: 60%;
+    /*height: 1.50rem;*/
+    margin-left: 0.10rem;
+    padding-top: 0.10rem;
+    float: left;
+}
+.content-body .bookintro p{
+    margin-top: 0.10rem;
+    height: 0.60rem;
+    line-height: 0.20rem;
+    color: rgb(205,205,205);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    /*text-overflow:ellipsis;*/
+}
+
+/***************第二个页面**************/
+.details-head{
+    width: 100%;
+    height: 1.00rem;
+}
+.details-head .title{
+    height: 0.50rem;
+    width: 100%;
+}
+.details-head .title .title-text{
+    width: 70%;
+    height: 0.50rem;
+    font-size: 0.15rem;
+    line-height: 0.50rem;
+    font-weight: 700;
+    float: left;
+}
+.details-head .title .title-icon{
+    width: 0.40rem;
+    height: 0.20rem;
+    margin-top: 0.15rem;
+    float: right;
+    background: url("../images/collect.png") center center / 100% 100% no-repeat;
+}
+.details-head .time{
+    height: 0.20rem;
+    line-height: 0.20rem;
+    width: 100%;
+    font-size: 0.10rem;
+    color: rgb(205,205,205);
+}
+.details-head .time .time-left{
+    float: left;
+    width: 50%;
+}
+.details-head .time .time-left .time-icon{
+    width: 10%;
+    height: 0.20rem;
+    float: left;
+    background: url("../images/time.png") center center no-repeat;
+}
+.details-head .time .time-left .time{
+    padding-left: 2%;
+    width: 80%;
+    height: 0.20rem;
+    float: left;
+}
+.details-head .time .time-right{
+    float: right;
+    width: 50%;
+}
+.details-head .time .time-right .collect-icon{
+    width: 10%;
+    height: 0.20rem;
+    float: left;
+    background: url("../images/time.png") center center no-repeat;
+}
+.details-head .time .time-right .collect-text{
+    padding-left: 2%;
+    width: 80%;
+    height: 0.20rem;
+    float: left;
+}
+.details-list{
+    width: 100%;
+}
+.details-list p{
+    font-size: 0.10rem;
+    font-weight: 700;
+    margin-bottom: 0.10rem;
+}
+.details-list .list-content{
+    width: 100%;
+}
+.details-list .list-content .book-list{
+    width: 100%;
+    height: 1.50rem;
+    margin-bottom: 0.10rem;
+}
+.details-list .list-content .book-list .book-img{
+    float: left;
+    width: 30%;
+    margin-top: 0.10rem;
+    height: 1.30rem;
+    background: url("../images/book2.png") center center / 100% 100% no-repeat;
+}
+.details-list .list-content .book-list .book-info{
+    margin-top: 0.10rem;
+    margin-left: 5%;
+    width: 65%;
+    float: left;
+    color: rgb(205,205,205);
+}
+.book-name{
+    margin-top: 0.10rem;
+    color: #000;
+    font-weight: 700;
+    font-size: 0.20rem;
+}
+.book-author{
+    margin-top: 0.10rem;
+    font-size: 0.01rem;
+}
+.book-details{
+    margin-top: 0.10rem;
+    height: 0.60rem;
+    line-height: 0.20rem;
+    font-size: 0.01rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+/*底部*/
+.details-foot{
+    width: 100%;
+    font-size: 0.20rem;
+    text-align: center;
+    height: 0.50rem;
+}
+.details-foot .foot-left{
+    float: left;
+    width: 48%;
+    height: 0.40rem;
+    border: 0.01rem solid #cccccc;
+}
+.foot-left .up-icon{
+    margin-left: 45%;
+    margin-top: 0.10rem;
+    float: left;
+    width: 0.20rem;
+    height: 0.20rem;
+    background: url("../images/up.png") center center / 100% 100% no-repeat;
+}
+.foot-left .up-num{
+    float: left;
+}
+.details-foot .foot-right{
+    float: left;
+    width: 48%;
+    height: 0.40rem;
+    border: 0.01rem solid #cccccc;
+}
+.foot-right .down-icon{
+    margin-left: 45%;
+    margin-top: 0.10rem;
+    float: left;
+    width: 0.20rem;
+    height: 0.20rem;
+    background: url("../images/down.png") center center no-repeat;
+}
+.foot-right .down-num{
+
+}
